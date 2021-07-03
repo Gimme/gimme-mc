@@ -3,11 +3,11 @@ plugins {
 }
 
 repositories {
-    mavenLocal()
+    maven("https://jitpack.io")
 }
 
 dependencies {
     // API
     api(project(":gimme-mc-item"))
-    api("dev.gimme.command:gimme-command-mc:0.1.0-SNAPSHOT")
+    api("com.github.Gimme.command:gimme-command-mc:main-SNAPSHOT")
 }
