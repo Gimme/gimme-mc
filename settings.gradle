@@ -1,0 +1,3 @@
+rootProject.name = "gimme-mc"
+
+include ":gimme-mc-item"
